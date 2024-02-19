@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Ejemplo-CRUD-Angular-API": {
+    "CRUD-Angular-API-PHP-Desplegado": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ejemplo-crud-angular-api",
+            "outputPath": "dist/CRUD-Angular-API-PHP-Desplegado",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Ejemplo-CRUD-Angular-API:build:production"
+              "browserTarget": "CRUD-Angular-API-PHP-Desplegado:build:production"
             },
             "development": {
-              "browserTarget": "Ejemplo-CRUD-Angular-API:build:development"
+              "browserTarget": "CRUD-Angular-API-PHP-Desplegado:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Ejemplo-CRUD-Angular-API:build"
+            "browserTarget": "CRUD-Angular-API-PHP-Desplegado:build"
           }
         },
         "test": {
