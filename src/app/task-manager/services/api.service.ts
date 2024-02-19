@@ -7,7 +7,7 @@ import { Task } from '../interfaces/task.interface';
   providedIn: 'root'
 })
 export class ApiService {
-  private baseUrl = 'http://localhost:8080';
+  private baseUrl = 'https://todolist-angular.000webhostapp.com/phpAPI';
 
   constructor (private http: HttpClient) { }
 

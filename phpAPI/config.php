@@ -4,7 +4,7 @@
   header('Access-Control-Allow-Headers: Content-Type, Authorization');
   header('Content-Type: application/json');
 
-  define('DB_HOST', 'db');
-  define('USERNAME', 'root');
-  define('PASSWORD', 'rootpassword');
-  define('DB_NAME', 'todoList');
+  define('DB_HOST', 'localhost');
+  define('USERNAME', 'id21895818_user');
+  define('PASSWORD', 'CPIFP-dwec-123');
+  define('DB_NAME', 'id21895818_todolistdb');
